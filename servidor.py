@@ -30,6 +30,6 @@ while True:
 		processarCliente(con, cliente)
 		os.exit(0)
 	else:
-		#processo pai00
+		#processo pai
 		con.close()
 sock.close()
